@@ -1,0 +1,12 @@
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plot-graph{
+    align-items: center;
+    justify-content: center;
+    width: 37.5rem;
+    height: 18rem;
+}
