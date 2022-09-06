@@ -1,1 +1,0 @@
-web: gunicorn insightful.wsgi --log-file -
