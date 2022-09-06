@@ -21,5 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api-auth/', include('rest_framework.urls')),
+    path('dataview_api/', include('dataview_api.urls')),
     url(r'', include('dataview.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

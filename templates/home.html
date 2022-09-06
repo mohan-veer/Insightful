@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block contents %}
-<main role="main" class="inner cover">
-  <h1 class="cover-heading home-content">Story Teller</h1>
-  <p class="lead home-content">Upload your dataset and get the story out of it</p>
+<main role="main" class="inner cover" style="margin-top: 12.5rem;">
+  <h1 class="cover-heading home-content">Story Telling With Data</h1>
+  <p class="lead home-content">Empower team members to discover insights hidden in your data</p>
   <p class="lead home-content">
-    <a href="#" class="btn btn-lg btn-secondary">Know your story</a>
+    <a href="{% url 'home-page' %}" class="btn btn-lg btn-secondary">Know your story</a>
   </p>
 </main>
 {% endblock %}
